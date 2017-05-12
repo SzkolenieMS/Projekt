@@ -48,7 +48,7 @@ public class Car extends Vehicle implements ICar, IAction {
 
 	public String getInfo() {
 		// TODO Auto-generated method stub
-		return null;
+		return "Info about car:";
 	}
 
 	public void run() {

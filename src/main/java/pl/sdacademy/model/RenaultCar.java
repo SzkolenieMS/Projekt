@@ -12,10 +12,17 @@ public class RenaultCar extends Car {
 	public void refuel() {
 		System.out.println("Tankuje Renault...");
 		try {
-			Thread.sleep(1000);
+			Thread.sleep(100);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
 		System.out.println("Zatankowalem");
 	}
+
+	@Override
+	public String getInfo() {
+
+		return super.getInfo() + "Renault";
+	}
+
 }
