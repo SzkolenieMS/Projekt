@@ -67,6 +67,7 @@ public class ISortAlgorithmTest {
 		int arrayWrong[] = { 1, 1, 2, 3 };
 
 		sortAlgorithm.sort(array);
+		
 		// boolean tablesAreEqual = true;
 		// boolean isUniqe = true;
 		//

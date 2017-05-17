@@ -19,6 +19,18 @@ public class TableUtils implements ITableUtils {
 
 	}
 
+	
+	public String print(int[] table){
+		String result = "";
+		for (Object element :table) {
+			result+=element + " ";
+		}
+		System.out.println(result);
+		return result;
+		
+	}
+	
+	
 	public void print(Object[] table) {
 		for (Object element : table) {
 
