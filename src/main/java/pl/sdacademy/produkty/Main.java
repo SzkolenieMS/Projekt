@@ -25,7 +25,7 @@ public class Main {
 		Produkt[] tablicaProduktow = new Produkt[] { produktPapierowka, produktWino, produktWodka, produktWhisky,
 				produktOgorek, produktMarchewka, produktPyra, produktGruszka, produktMleko, produktChleb };
 		Produkt znalezionyProdukt = null ;
-		String kodKreskowy = "12668";
+		String kodKreskowy = "123";
 		for (int j = 0; j < tablicaProduktow.length; j++) {
 			znalezionyProdukt = tablicaProduktow[j].znajdzProdukt(n->n==kodKreskowy, tablicaProduktow);
 		}

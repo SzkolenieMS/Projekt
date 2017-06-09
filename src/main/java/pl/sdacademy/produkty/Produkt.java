@@ -61,11 +61,8 @@ public class Produkt implements IProdukt {
 	public void setProducent(String producent) {
 		this.producent = producent;
 	}
-	
-	
-	
 
-@Override
+	@Override
 	public <T> Produkt znajdzProdukt(Predicate<T> predicate, Produkt[] listaProduktow) {
 		for (int i = 0; i < listaProduktow.length; i++) {
 			boolean condition = predicate.test((T) listaProduktow[i].getKodKreskowy());
@@ -76,11 +73,6 @@ public class Produkt implements IProdukt {
 		return null;
 	}
 
-
-
-
-	
-	
 	public Date getDataWaznosci() {
 		return dataWaznosci;
 	}
